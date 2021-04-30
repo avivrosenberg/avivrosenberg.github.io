@@ -12,9 +12,8 @@ description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="http://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 
-icon: 🤓 # the emoji used as the favicon
+icon: 👾 # the emoji used as the favicon
 url:  # the base hostname & protocol for your site
 baseurl: #/al-folio # the subpath of your site, e.g. /blog/
 last_updated: false # set to true if you want to display last updated in the footer
@@ -25,7 +24,7 @@ impressum_path:  # set to path to include impressum link in the footer, use the 
 # -----------------------------------------------------------------------------
 
 navbar_fixed: true
-footer_fixed: true
+footer_fixed: false
 
 # Dimensions
 max_width: 800px
@@ -59,16 +58,16 @@ keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
 
 contact_note: >
-  Please use email to reach out.
+  Please use email if you wish to reach out.
 
-google_analytics: UA-XXXXXXXXX # out your google-analytics code
+google_analytics: G-0E7V13KGS6 # out your google-analytics code
 panelbear_analytics: XXXXXXXXX # panelbear analytics site ID
 
 # -----------------------------------------------------------------------------
 # Blog
 # -----------------------------------------------------------------------------
 
-blog_name: avivr  # your blog must have a name for it to show up in the nav bar
+blog_name: # avivr  # your blog must have a name for it to show up in the nav bar
 blog_description: "cat /dev/null > blog"
 permalink: /blog/:year/:title/
 
@@ -89,6 +88,7 @@ collections:
       layout: post
     output: true
     permalink: /news/:path/
+
   projects:
     output: true
     permalink: /projects/:path/
@@ -143,8 +143,8 @@ github: [metadata]
 
 scholar:
 
-  last_name: Einstein
-  first_name: [Albert, A.]
+  last_name: Rosenberg
+  first_name: ["Aviv", "Aviv A", "Aviv A.", "A. A."]
 
   style: apa
   locale: en
@@ -166,7 +166,7 @@ scholar:
 # Optional Features
 # -----------------------------------------------------------------------------
 
-enable_google_analytics:    false  # enables google analytics
+enable_google_analytics:    true   # enables google analytics
 enable_panelbear_analytics: false  # enables panelbear analytics
 enable_mansory:             true   # enables automatic project cards arangement
 enable_math:                true   # enables math typesetting (uses MathJax)
