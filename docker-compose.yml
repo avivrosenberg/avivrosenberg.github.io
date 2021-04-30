@@ -1,0 +1,12 @@
+version: "3"
+services:
+  site:
+    command: jekyll serve --drafts --port ${JEKYLL_PORT} --livereload --livereload-port ${LIVERELOAD_PORT}
+    image: jekyll/jekyll:4.2.0
+    volumes:
+      - $PWD:/srv/jekyll
+      - $PWD/vendor/bundle:/usr/local/bundle
+    ports:
+      - ${JEKYLL_PORT}:${JEKYLL_PORT}
+      - ${LIVERELOAD_PORT}:${LIVERELOAD_PORT}
+    # to reload _config.yml: docker-compose exec site jekyll build
