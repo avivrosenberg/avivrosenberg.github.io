@@ -1,6 +1,6 @@
 ---
 layout: post
-title: CHE Data Science Scholarship awarded
+title: CHE Data Science Scholarship awarded.
 # date: 2015-10-22 15:59:00-0400
 inline: false
 published: true
