@@ -56,6 +56,7 @@ blogger_url: # your blogger URL
 work_url: # work page URL
 keybase_username: # your keybase user name
 wikidata_id: # your wikidata id
+stackoverflow_id: 1230403
 
 contact_note: >
   Please use email if you wish to reach out.
