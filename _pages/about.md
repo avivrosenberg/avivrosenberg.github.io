@@ -23,7 +23,7 @@ In addition, I'm currently working as an machine learning engineer and data
 scientist at [Sibylla](https://sibylla.ai).
 
 My research interests include deep learning, differentiable optimization,
-physiogical signal processing (e.g. ECG), and recently computational structural
+physiological signal processing (e.g. ECG), and recently computational structural
 biology. I hold an MSc in Biomedical Engineering and a BSc in Electrical
 Engineering, both from the Technion. Currently head TA of the CS faculty's [Deep
 Learning](https://vistalab-technion.github.io/cs236781/) course.
