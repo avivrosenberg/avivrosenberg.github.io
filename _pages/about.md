@@ -31,7 +31,8 @@ medical applications.
 
 I hold an MSc in Biomedical Engineering and a BSc in Electrical Engineering,
 both from the Technion. Previously head TA of the CS faculty's [Deep
-Learning](https://vistalab-technion.github.io/cs236781/) course (2019-2022).
+Learning](https://vistalab-technion.github.io/cs236781/semesters/w22/) course
+(2019-2022).
 
 In addition to a my research pursuits, I have a strong technical background in
 software engineering. Before starting my PhD I worked in multiple technical
