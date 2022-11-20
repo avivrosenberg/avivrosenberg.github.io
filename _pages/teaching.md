@@ -9,7 +9,7 @@ nav_order: 5
 
 ---
 
-#### [236781: Deep Learning](https://vistalab-technion.github.io/cs236781/)
+#### [236781: Deep Learning](https://vistalab-technion.github.io/cs236781/semesters/w22/)
 
 **Winter 2019--Spring 2022, CS Faculty, Technion.**
 
