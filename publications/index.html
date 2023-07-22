@@ -1,1 +1,912 @@
-<!DOCTYPE html> <html lang="en"> <head> <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"> <meta http-equiv="X-UA-Compatible" content="IE=edge"> <title>publications | Aviv A. Rosenberg</title> <meta name="author" content="Aviv A. Rosenberg"> <meta name="description" content="Personal website and blog. "> <meta name="keywords" content="machine-learning, statistics, quantile-regression, vqr, medical-ai, academic-website, consulting"> <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous"> <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light"> <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%91%BE&lt;/text&gt;&lt;/svg&gt;"> <link rel="stylesheet" href="/assets/css/main.css"> <link rel="canonical" href="https://avivrosenberg.github.io/publications/"> <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark"> <script src="/assets/js/theme.js"></script> <script src="/assets/js/dark_mode.js"></script> </head> <body class="fixed-top-nav "> <header> <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top"> <div class="container"> <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Aviv </span>A. Rosenberg</a> <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar top-bar"></span> <span class="icon-bar middle-bar"></span> <span class="icon-bar bottom-bar"></span> </button> <div class="collapse navbar-collapse text-right" id="navbarNav"> <ul class="navbar-nav ml-auto flex-nowrap"> <li class="nav-item "> <a class="nav-link" href="/">about</a> </li> <li class="nav-item active"> <a class="nav-link" href="/publications/">publications<span class="sr-only">(current)</span></a> </li> <li class="nav-item "> <a class="nav-link" href="/teaching/">teaching</a> </li> <li class="toggle-container"> <button id="light-toggle" title="Change theme"> <i class="fas fa-moon"></i> <i class="fas fa-sun"></i> </button> </li> </ul> </div> </div> </nav> <progress id="progress" value="0"> <div class="progress-container"> <span class="progress-bar"></span> </div> </progress> </header> <div class="container mt-5"> <div class="post"> <header class="post-header"> <h1 class="post-title">publications</h1> <p class="post-description"></p> </header> <article> <div class="publications"> <h2 class="year">2023</h2> <ol class="bibliography"> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">ICML Workshop</abbr></div> <div id="pegoraro2023vector" class="col-sm-8"> <div class="title">Vector Quantile Regression on Manifolds</div> <div class="author"> Marco Pegoraro, Sanketh Vedula, <a href="https://avivr.net" rel="external nofollow noopener" target="_blank">Aviv A. Rosenberg</a>, Irene Tallini, Emanuele Rodolà, and <span class="more-authors" title="click to view 1 more author" onclick=" var element=$(this); element.attr('title', ''); var more_authors_text=element.text() == '1 more author' ? 'Alex M. Bronstein' : '1 more author'; var cursorPosition=0; var textAdder=setInterval(function(){ element.text(more_authors_text.substring(0, cursorPosition + 1)); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">1 more author</span> </div> <div class="periodical"> <em>In ICML Workshop on New Frontiers in Learning, Control, and Dynamical Systems</em> 2023 </div> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="https://openreview.net/forum?id=QHvrI74Zir" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> <a href="https://openreview.net/pdf?id=QHvrI74Zir" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a> </div> <div class="abstract hidden"> <p>Quantile regression (QR) is a statistical tool for distribution-free estimation of conditional quantiles of a target variable given explanatory features. QR is limited by the assumption that the target distribution is univariate and defined on an Euclidean domain. Although the notion of quantiles was recently extended to multi-variate distributions, QR for multi-variate distributions on manifolds remains underexplored, even though many important applications inherently involve data distributed on, e.g., spheres (climate measurements), tori (dihedral angles in proteins), or Lie groups (attitude in navigation). By leveraging optimal transport theory and the notion of c-concave functions, we meaningfully define conditional vector quantile functions of high-dimensional variables on manifolds (M-CVQFs). Our approach allows for quantile estimation, regression, and computation of conditional confidence sets. We demonstrate the approach’s efficacy and provide insights regarding the meaning of non-Euclidean quantiles through preliminary synthetic data experiments.</p> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">ICML Workshop</abbr></div> <div id="vedula2023continuous" class="col-sm-8"> <div class="title">Continuous Vector Quantile Regression</div> <div class="author"> Sanketh Vedula, Irene Tallini, <a href="https://avivr.net" rel="external nofollow noopener" target="_blank">Aviv A. Rosenberg</a>, Marco Pegoraro, Emanuele Rodolà, and <span class="more-authors" title="click to view 2 more authors" onclick=" var element=$(this); element.attr('title', ''); var more_authors_text=element.text() == '2 more authors' ? 'Yaniv Romano, Alex M. Bronstein' : '2 more authors'; var cursorPosition=0; var textAdder=setInterval(function(){ element.text(more_authors_text.substring(0, cursorPosition + 1)); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">2 more authors</span> </div> <div class="periodical"> <em>In ICML Workshop on New Frontiers in Learning, Control, and Dynamical Systems</em> 2023 </div> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="https://openreview.net/forum?id=DUZbGAXcyL" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> <a href="https://openreview.net/pdf?id=DUZbGAXcyL" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a> </div> <div class="abstract hidden"> <p>Vector quantile regression (VQR) estimates the conditional vector quantile function (CVQF), a fundamental quantity which fully represents the conditional distribution of \rvecY|\rvecX. VQR is formulated as an optimal transport (OT) problem between a uniform \rvecU∼μand the target (\rvecX,\rvecY)∼ν, the solution of which is a unique transport map, co-monotonic with \rvecU. Recently non linear VQR (NL-VQR) has been proposed to estimate support non-linear CVQFs, together with fast solvers which enabled the use of this tool in practical applications. Despite its utility, the scalability and estimation quality of NL-VQR is limited due to a discretization of the OT problem onto a grid of quantile levels. We propose a novel \emphcontinuous formulation and parametrization of VQR using partial input-convex neural networks (PICNNs). Our approach allows for accurate, scalable, differentiable and invertible estimation of non-linear CVQFs. We further demonstrate, theoretically and experimentally, how continuous CVQFs can be used for general statistical inference tasks: estimation of likelihoods, CDFs, confidence sets, coverage, sampling, and more. This work is an important step towards unlocking the full potential of VQR.</p> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">ICLR</abbr></div> <div id="rosenberg2023fast" class="col-sm-8"> <div class="title">Fast Nonlinear Vector Quantile Regression</div> <div class="author"> <a href="https://avivr.net" rel="external nofollow noopener" target="_blank">Aviv A. Rosenberg</a>, Sanketh Vedula, Yaniv Romano, and Alex M. Bronstein</div> <div class="periodical"> <em>In The Eleventh International Conference on Learning Representations </em> 2023 </div> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="https://openreview.net/forum?id=UxqUgchwXkK" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> <a href="https://openreview.net/pdf?id=UxqUgchwXkK" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a> </div> <div class="abstract hidden"> <p>Quantile regression (QR) is a powerful tool for estimating one or more conditional quantiles of a target variable Y given explanatory features X. A limitation of QR is that it is only defined for scalar target variables, due to the formulation of its objective function, and since the notion of quantiles has no standard definition for multivariate distributions. Recently, vector quantile regression (VQR) was proposed as an extension of QR for vector-valued target variables, thanks to a meaningful generalization of the notion of quantiles to multivariate distributions via optimal transport. Despite its elegance, VQR is arguably not applicable in practice due to several limitations: (i) it assumes a linear model for the quantiles of the target Y given the features X; (ii) its exact formulation is intractable even for modestly-sized problems in terms of target dimensions, number of regressed quantile levels, or number of features, and its relaxed dual formulation may violate the monotonicity of the estimated quantiles; (iii) no fast or scalable solvers for VQR currently exist. In this work we fully address these limitations, namely: (i) We extend VQR to the non-linear case, showing substantial improvement over linear VQR; (ii) We propose vector monotone rearrangement, a method which ensures the quantile functions estimated by VQR are monotone functions; (iii) We provide fast, GPU-accelerated solvers for linear and nonlinear VQR which maintain a fixed memory footprint, and demonstrate that they scale to millions of samples and thousands of quantile levels; (iv) We release an optimized python package of our solvers as to widespread the use of VQR in real-world applications.</p> </div> </div> </div> </li> </ol> <h2 class="year">2022</h2> <ol class="bibliography"> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">Scientific Reports</abbr></div> <div id="ackerman2022machine" class="col-sm-8"> <div class="title">Machine learning approaches demonstrate that protein structures carry information about their genetic coding</div> <div class="author"> Linor Ackerman-Schraier, <a href="https://avivr.net" rel="external nofollow noopener" target="_blank">Aviv A. Rosenberg</a>, Ailie Marx, and Alex M. Bronstein</div> <div class="periodical"> <em>Scientific Reports</em> 2022 </div> <div class="links"> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">NatComm</abbr></div> <div id="Rosenberg2022" class="col-sm-8"> <div class="title">Codon-specific Ramachandran plots show amino acid backbone conformation depends on identity of the translated codon</div> <div class="author"> <a href="https://avivr.net" rel="external nofollow noopener" target="_blank">Aviv A. Rosenberg</a>, Ailie Marx, and Alex M. Bronstein</div> <div class="periodical"> <em>Nature Communications</em> May 2022 </div> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="https://www.nature.com/articles/s41467-022-30390-9" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> <a href="https://www.nature.com/articles/s41467-022-30390-9.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a> </div> <div class="abstract hidden"> <p>Synonymous codons translate into chemically identical amino acids. Once considered inconsequential to the formation of the protein product, there is evidence to suggest that codon usage affects co-translational protein folding and the final structure of the expressed protein. Here we develop a method for computing and comparing codon-specific Ramachandran plots and demonstrate that the backbone dihedral angle distributions of some synonymous codons are distinguishable with statistical significance for some secondary structures. This shows that there exists a dependence between codon identity and backbone torsion of the translated amino acid. Although these findings cannot pinpoint the causal direction of this dependence, we discuss the vast biological implications should coding be shown to directly shape protein conformation and demonstrate the usefulness of this method as a tool for probing associations between codon usage and protein structure. Finally, we urge for the inclusion of exact genetic information into structural databases.</p> </div> </div> </div> </li> </ol> <h2 class="year">2021</h2> <ol class="bibliography"> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">PNAS</abbr></div> <div id="Elul2021" class="col-sm-8"> <div class="title">Meeting the unmet needs of clinicians from AI systems showcased for cardiology with deep-learning–based ECG analysis</div> <div class="author"> Yonatan Elul, <a href="https://avivr.net" rel="external nofollow noopener" target="_blank">Aviv A. Rosenberg</a>, Assaf Schuster, Alex M. Bronstein, and Yael Yaniv</div> <div class="periodical"> <em>Proceedings of the National Academy of Sciences</em> May 2021 </div> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="https://www.pnas.org/content/118/24/e2020620118" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> <a href="https://www.pnas.org/content/118/24/e2020620118.full.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a> </div> <div class="abstract hidden"> <p>The use of artificial intelligence (AI) in medicine, particularly deep learning, has gained considerable attention recently. Although some works boast superior capabilities compared to clinicians, actual deployments of AI systems in the clinic are scarce. We describe four important gaps on the machine-learning side responsible for this discrepancy by first formulating them in a way that is actionable by AI researchers and then systematically addressing these needs. Aiming beyond the search for better model architectures or improved accuracy, we focus directly on the challenges of clinical usefulness as stated by medical professionals in the literature. Our results show that deep-learning systems can be robust, trustworthy, explainable, and transparent while retaining the superior level of performance these algorithms are known for.Despite their great promise, artificial intelligence (AI) systems have yet to become ubiquitous in the daily practice of medicine largely due to several crucial unmet needs of healthcare practitioners. These include lack of explanations in clinically meaningful terms, handling the presence of unknown medical conditions, and transparency regarding the system’s limitations, both in terms of statistical performance as well as recognizing situations for which the system’s predictions are irrelevant. We articulate these unmet clinical needs as machine-learning (ML) problems and systematically address them with cutting-edge ML techniques. We focus on electrocardiogram (ECG) analysis as an example domain in which AI has great potential and tackle two challenging tasks: the detection of a heterogeneous mix of known and unknown arrhythmias from ECG and the identification of underlying cardio-pathology from segments annotated as normal sinus rhythm recorded in patients with an intermittent arrhythmia. We validate our methods by simulating a screening for arrhythmias in a large-scale population while adhering to statistical significance requirements. Specifically, our system 1) visualizes the relative importance of each part of an ECG segment for the final model decision; 2) upholds specified statistical constraints on its out-of-sample performance and provides uncertainty estimation for its predictions; 3) handles inputs containing unknown rhythm types; and 4) handles data from unseen patients while also flagging cases in which the model’s outputs are not usable for a specific patient. This work represents a significant step toward overcoming the limitations currently impeding the integration of AI into clinical practice in cardiology and medicine in general.All study data are included in the article and/or SI Appendix.</p> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">Nat. Dig. Med.</abbr></div> <div id="levy2021digital" class="col-sm-8"> <div class="title">Digital oximetry biomarkers for assessing respiratory function: standards of measurement, physiological interpretation, and clinical use</div> <div class="author"> Jeremy Levy, Daniel Álvarez, <a href="https://avivr.net" rel="external nofollow noopener" target="_blank">Aviv A Rosenberg</a>, Alexandra Alexandrovich, Félix Del Campo, and <span class="more-authors" title="click to view 1 more author" onclick=" var element=$(this); element.attr('title', ''); var more_authors_text=element.text() == '1 more author' ? 'Joachim A Behar' : '1 more author'; var cursorPosition=0; var textAdder=setInterval(function(){ element.text(more_authors_text.substring(0, cursorPosition + 1)); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">1 more author</span> </div> <div class="periodical"> <em>NPJ Digital Medicine</em> May 2021 </div> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="https://www.nature.com/articles/s41746-020-00373-5" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> <a href="https://www.nature.com/articles/s41746-020-00373-5.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a> </div> <div class="abstract hidden"> <p>Pulse oximetry is routinely used to non-invasively monitor oxygen saturation levels. A low oxygen level in the blood means low oxygen in the tissues, which can ultimately lead to organ failure. Yet, contrary to heart rate variability measures, a field which has seen the development of stable standards and advanced toolboxes and software, no such standards and open tools exist for continuous oxygen saturation time series variability analysis. The primary objective of this research was to identify, implement and validate key digital oximetry biomarkers (OBMs) for the purpose of creating a standard and associated reference toolbox for continuous oximetry time series analysis. We review the sleep medicine literature to identify clinically relevant OBMs. We implement these biomarkers and demonstrate their clinical value within the context of obstructive sleep apnea (OSA) diagnosis on a total of n = 3806 individual polysomnography recordings totaling 26,686 h of continuous data. A total of 44 digital oximetry biomarkers were implemented. Reference ranges for each biomarker are provided for individuals with mild, moderate, and severe OSA and for non-OSA recordings. Linear regression analysis between biomarkers and the apnea hypopnea index (AHI) showed a high correlation, which reached 𝑅⎯⎯⎯⎯2=0.82. The resulting python OBM toolbox, denoted “pobm”, was contributed to the open software PhysioZoo (physiozoo.org). Studying the variability of the continuous oxygen saturation time series using pbom may provide information on the underlying physiological control systems and enhance our understanding of the manifestations and etiology of diseases, with emphasis on respiratory diseases.</p> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">Frontiers</abbr></div> <div id="weiser2021opening" class="col-sm-8"> <div class="title">Opening the Schrödinger Box: Short-and Long-Range Mammalian Heart Rate Variability</div> <div class="author"> Ido Weiser-Bitoun, Moran Davoodi, <a href="https://avivr.net" rel="external nofollow noopener" target="_blank">Aviv A Rosenberg</a>, Alexandra Alexandrovich, and Yael Yaniv</div> <div class="periodical"> <em>Frontiers in physiology</em> May 2021 </div> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="https://www.frontiersin.org/articles/10.3389/fphys.2021.665709/full" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> <a href="https://www.frontiersin.org/articles/10.3389/fphys.2021.665709/pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a> </div> <div class="abstract hidden"> <p></p> </div> </div> </div> </li> </ol> <h2 class="year">2020</h2> <ol class="bibliography"><li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">Scientific Reports</abbr></div> <div id="rosenberg2020signatures" class="col-sm-8"> <div class="title">Signatures of the autonomic nervous system and the heart’s pacemaker cells in canine electrocardiograms and their applications to humans</div> <div class="author"> <a href="https://avivr.net" rel="external nofollow noopener" target="_blank">Aviv A Rosenberg</a>, Ido Weiser-Bitoun, George E Billman, and Yael Yaniv</div> <div class="periodical"> <em>Nature Scientific Reports</em> May 2020 </div> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="https://www.nature.com/articles/s41598-020-66709-z" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> <a href="https://www.nature.com/articles/s41598-020-66709-z.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a> </div> <div class="abstract hidden"> <p>Heart rate and heart rate variability (HRV) are mainly determined by the autonomic nervous system (ANS), which interacts with receptors on the sinoatrial node (SAN; the heart’s primary pacemaker), and by the “coupled-clock” system within the SAN cells. HRV changes are associated with cardiac diseases. However, the relative contributions of the ANS and SAN to HRV are not clear, impeding effective treatment. To discern the SAN’s contribution, we performed HRV analysis on canine electrocardiograms containing basal and ANS-blockade segments. We also analyzed human electrocardiograms of atrial fibrillation and heart failure patients, as well as healthy aged subjects. Finally, we used a mathematical model to simulate HRV under decreased “coupled-clock” regulation. We found that (a) in canines, the SAN and ANS contribute mainly to long- and short-term HRV, respectively; (b) there is evidence suggesting a similar relative SAN contribution in humans; (c) SAN features can be calculated from beat-intervals obtained in-vivo, without intervention; (d) ANS contribution can be modeled by sines embedded in white noise; (e) HRV changes associated with cardiac diseases and aging can be interpreted as deterioration of both SAN and ANS; and (f) SAN clock-coupling can be estimated from changes in HRV. This may enable future non-invasive diagnostic applications.</p> </div> </div> </div> </li></ol> <h2 class="year">2018</h2> <ol class="bibliography"> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">CinC</abbr></div> <div id="behar2018adding" class="col-sm-8"> <div class="title">Adding Two Dimensions to Heart Rate Variability Research</div> <div class="author"> Joachim A Behar, Ori Shemla, Ido Weiser-Bitoun, <a href="https://avivr.net" rel="external nofollow noopener" target="_blank">Aviv A Rosenberg</a>, and Yael Yaniv</div> <div class="periodical"> <em>In 2018 Computing in Cardiology Conference (CinC)</em> May 2018 </div> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="https://ieeexplore.ieee.org/abstract/document/8743925" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="abstract hidden"> <p>Introduction: Heart rate variability (HRV) analysis tools have been mainly available for analysis of human electrocardiographic derived heart rate. We explore extending HRV analysis to two additional dimensions: (1) analysis across multiple mammalian species and (2) analysis across different levels of integration for example sinoatrial tissue. Methods: We analyzed the beating rate variability (BRV) across the two additional dimensions using the PhysioZoo computer program that we recently introduced. We used published databases of electrocardiograms from four mammal types: human (n=18), dog (n=17), rabbit (n=4) and mouse (n=8). We computed the BRV measures for each. We also show how the PhysioZoo program can be used for the analysis of sinoatrial node tissue BRV. Results: The study of typical mammalian heart and respiration rates (obtained from the dominant high frequency peak) revealed a linear relationship between these two quantities. Analysis of the rabbit sinoatrial node tissue BRV showed that it had reduced overall variability when compared to in vivo heart BRV.</p> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">MSc. Thesis</abbr></div> <div id="rosenberg2018non" class="col-sm-8"> <div class="title">Non-Invasive In-Vivo Analysis of Intrinsic Clock-Like Pacemaker Mechanisms: Decoupling Neural Input Using Heart Rate Variability Measurements</div> <div class="author"> <a href="https://avivr.net" rel="external nofollow noopener" target="_blank">Aviv A. Rosenberg</a> </div> <div class="periodical"> May 2018 </div> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="https://www.graduate.technion.ac.il/Theses/Abstracts.asp?Id=30274" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> </div> <div class="abstract hidden"> <p>Heart diseases account for a quarter of all deaths each year in the US and are also an economic burden with an estimated expenditure for treatment of almost $100B annually in the US alone. Cardiovascular disease mortality rate is correlated with an increase in heart rate which is regulated by both the autonomic nervous system (ANS) and the sinoatrial node (SAN) cells in heart. The heart rate is highly variable and never reaches a steady state even at rest—a phenomenon known as heart rate variability (HRV). Many studies have shown that loss of this variability is strongly associated with morbidity and mortality. By using pharmacological denervation, a method of temporarily blocking the ANS and applying HRV analysis we aim to study the contribution of the SAN to the HRV. We acquired canine ECG data containing both basal (n=27) and denervated segments (n=20). We applied an automated ECG segmentation algorithm to extract the segments from each record. We used a custom R-peak detector, rqrs, based on the PhysioNet’s gqrs, to detect R-peaks in the data and produce an RR-interval time series. We excluded ectopic beats using an automated algorithm and proceeded to apply HRV analysis to the resulting intervals. We implemented all major HRV techniques which can be categorized into time domain, frequency domain (spectral) and nonlinear methods (which quantify physiological complexity). We used these methods to extract HRV features from both the basal and denervated data sets. We implemented all signal processing and HRV analysis methods as an open source MATLAB toolbox, rhrv, and additionally provided a GUI, PhysioZoo, which enables HRV analysis in animal data and comes with an annotated animal database. We have shown that the rqrs peak detector provides accurate detections for annotated human ECG data (F1=93.4) and annotated ECG records from our canine dataset (F1=98.7). Moreover, we adapted HRV analysis techniques to the canine data where necessary and e.g. provide an automatic method of adapting the frequency bands for spectral HRV analysis. HRV analysis of basal vs. denervated data shows that (1) Time domain HRV is significantly reduced after denervation; (2) SAN contributes spectral power mainly in the very-low frequency band; (3) The SA Node contributes most of the physiological complexity of the heart rate, specifically the long-term changes occurring over many beats; (4) The ANS influences mainly the short term, beat-to-beat variability of the heart rate; (5) The contribution of the ANS to the heart rate signal can be modeled as two sine waves at specific frequencies corresponding to periodic autonomic regulation embedded in white noise. Moreover, we suggest clinical indices for the state and function of the SAN directly from basal ECG data by measuring spectral power in the VLF band and multiscale entropy (MSE) values in the high scales. We conclude that by applying HRV analysis to regular ECG data, SAN function can be observed even without pharmacological denervation. This has the potential to allow future non-invasive heart monitoring solutions that can be used e.g. for early detection of SA node dysfunction.</p> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">Frontiers</abbr></div> <div id="behar2018physiozoo" class="col-sm-8"> <div class="title">PhysioZoo: a novel open access platform for heart rate variability analysis of mammalian electrocardiographic data</div> <div class="author"> Joachim A Behar, <a href="https://avivr.net" rel="external nofollow noopener" target="_blank">Aviv A Rosenberg</a>, Ido Weiser-Bitoun, Ori Shemla, Alexandra Alexandrovich, and <span class="more-authors" title="click to view 2 more authors" onclick=" var element=$(this); element.attr('title', ''); var more_authors_text=element.text() == '2 more authors' ? 'Eugene Konyukhov, Yael Yaniv' : '2 more authors'; var cursorPosition=0; var textAdder=setInterval(function(){ element.text(more_authors_text.substring(0, cursorPosition + 1)); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">2 more authors</span> </div> <div class="periodical"> <em>Frontiers in Physiology</em> May 2018 </div> <div class="links"> <a href="https://www.frontiersin.org/articles/10.3389/fphys.2018.01390/full" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> <a href="https://www.frontiersin.org/articles/10.3389/fphys.2018.01390/pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a> </div> </div> </div> </li> <li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">Frontiers</abbr></div> <div id="behar2018universal" class="col-sm-8"> <div class="title">A universal scaling relation for defining power spectral bands in mammalian heart rate variability analysis</div> <div class="author"> Joachim A Behar, <a href="https://avivr.net" rel="external nofollow noopener" target="_blank">Aviv A Rosenberg</a>, Ori Shemla, Kevin R Murphy, Gideon Koren, and <span class="more-authors" title="click to view 2 more authors" onclick=" var element=$(this); element.attr('title', ''); var more_authors_text=element.text() == '2 more authors' ? 'George E Billman, Yael Yaniv' : '2 more authors'; var cursorPosition=0; var textAdder=setInterval(function(){ element.text(more_authors_text.substring(0, cursorPosition + 1)); if (++cursorPosition == more_authors_text.length){ clearInterval(textAdder); } }, '10'); ">2 more authors</span> </div> <div class="periodical"> <em>Frontiers in Physiology</em> May 2018 </div> <div class="links"> <a href="https://www.frontiersin.org/articles/10.3389/fphys.2018.01001/full" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> <a href="https://www.frontiersin.org/articles/10.3389/fphys.2018.01001/pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a> </div> </div> </div> </li> </ol> <h2 class="year">2017</h2> <ol class="bibliography"><li> <div class="row"> <div class="col-sm-2 abbr"><abbr class="badge">CinC</abbr></div> <div id="behar2017rhythm" class="col-sm-8"> <div class="title">Rhythm and quality classification from short ECGs recorded using a mobile device</div> <div class="author"> Joachim A Behar, <a href="https://avivr.net" rel="external nofollow noopener" target="_blank">Aviv A Rosenberg</a>, Yael Yaniv, and Julien Oster</div> <div class="periodical"> <em>In 2017 Computing in Cardiology (CinC)</em> May 2017 </div> <div class="links"> <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a> <a href="https://ieeexplore.ieee.org/abstract/document/8331574" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a> <a href="http://www.cinc.org/archives/2017/pdf/165-056.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a> </div> <div class="abstract hidden"> <p>Introduction: Atrial fibrillation (AF) is the most common sustained cardiac arrhythmia. Its prevalence is 12% of the general population and it is associated with increased risk of mortality and morbidity. Methods: The AliveCor mobile electrocardiogram (ECG) device was used to collect data. The Physionet Challenge aimed to create an intelligent algorithm for automated rhythm and quality classification. A database of 8528 single lead ECG was used for training and a closed database of 3658 ECG recordings was used for testing the participants algorithms on the Challenge server. The RR interval time-series was first estimated using a R-peak detector. Signal quality was estimated on a second-by-second basis and the continuous sub-segment with the highest quality was selected for further analysis. A number of features were estimated: heart rate variability (time domain based, fragmentation, coefficient of sample entropy etc.), ECG morphology (QRS length, QT interval etc.) and the presence of ectopic beats. The features were used to train support vector machine classifiers in a one-vs.-rest approach. Results: For the final score of the challenge we obtained an overall F ι measure on the test set of 0.80. Conclusion: The feature based machine learning approach showed high performance in distinguishing between the different rhythms represented in the Challenge. This opens the horizon for computer automated interpretation of single lead mobile ECG.</p> </div> </div> </div> </li></ol> </div> </article> </div> </div> <footer class="fixed-bottom"> <div class="container mt-0"> © Copyright 2023 Aviv A. Rosenberg. Last updated: July 22, 2023. </div> </footer> <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script> <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script> <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script> <script defer src="/assets/js/masonry.js" type="text/javascript"></script> <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js" integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM=" crossorigin="anonymous"></script> <script defer src="/assets/js/zoom.js"></script> <script defer src="/assets/js/common.js"></script> <script type="text/javascript">window.MathJax={tex:{tags:"ams"}};</script> <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script> <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script> <script async src="https://www.googletagmanager.com/gtag/js?id=G-0E7V13KGS6"></script> <script>function gtag(){window.dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),gtag("config","G-0E7V13KGS6");</script> <script type="text/javascript">function progressBarSetup(){"max"in document.createElement("progress")?(initializeProgressElement(),$(document).on("scroll",function(){progressBar.attr({value:getCurrentScrollPosition()})}),$(window).on("resize",initializeProgressElement)):(resizeProgressBar(),$(document).on("scroll",resizeProgressBar),$(window).on("resize",resizeProgressBar))}function getCurrentScrollPosition(){return $(window).scrollTop()}function initializeProgressElement(){let e=$("#navbar").outerHeight(!0);$("body").css({"padding-top":e}),$("progress-container").css({"padding-top":e}),progressBar.css({top:e}),progressBar.attr({max:getDistanceToScroll(),value:getCurrentScrollPosition()})}function getDistanceToScroll(){return $(document).height()-$(window).height()}function resizeProgressBar(){progressBar.css({width:getWidthPercentage()+"%"})}function getWidthPercentage(){return getCurrentScrollPosition()/getDistanceToScroll()*100}const progressBar=$("#progress");window.onload=function(){setTimeout(progressBarSetup,50)};</script> </body> </html>
+<!DOCTYPE html>
+<html lang="en">
+
+  <!-- Head -->
+  <head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">    <!-- Metadata, OpenGraph and Schema.org -->
+    
+
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>publications | Aviv A. Rosenberg</title>
+    <meta name="author" content="Aviv A. Rosenberg">
+    <meta name="description" content="Personal website and blog.
+">
+    <meta name="keywords" content="machine-learning, statistics, quantile-regression, vqr, medical-ai, academic-website, consulting">
+
+
+    <!-- Bootstrap & MDB -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css" integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" crossorigin="anonymous">
+
+    <!-- Fonts & Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css" integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css" integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:100,300,400,500,700|Material+Icons">
+
+    <!-- Code Syntax Highlighting -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" media="" id="highlight_theme_light">
+
+    <!-- Styles -->
+    
+    <link rel="shortcut icon" href="data:image/svg+xml,&lt;svg%20xmlns=%22http://www.w3.org/2000/svg%22%20viewBox=%220%200%20100%20100%22&gt;&lt;text%20y=%22.9em%22%20font-size=%2290%22&gt;%F0%9F%91%BE&lt;/text&gt;&lt;/svg&gt;">
+    
+    <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="canonical" href="https://avivrosenberg.github.io/publications/">
+    
+    <!-- Dark Mode -->
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" media="none" id="highlight_theme_dark">
+
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+    
+
+  </head>
+
+  <!-- Body -->
+  <body class="fixed-top-nav ">
+
+    <!-- Header -->
+    <header>
+
+      <!-- Nav Bar -->
+      <nav id="navbar" class="navbar navbar-light navbar-expand-sm fixed-top">
+        <div class="container">
+          <a class="navbar-brand title font-weight-lighter" href="/"><span class="font-weight-bold">Aviv </span>A. Rosenberg</a>
+          <!-- Navbar Toggle -->
+          <button class="navbar-toggler collapsed ml-auto" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar top-bar"></span>
+            <span class="icon-bar middle-bar"></span>
+            <span class="icon-bar bottom-bar"></span>
+          </button>
+
+          <div class="collapse navbar-collapse text-right" id="navbarNav">
+            <ul class="navbar-nav ml-auto flex-nowrap">
+
+              <!-- About -->
+              <li class="nav-item ">
+                <a class="nav-link" href="/">about</a>
+              </li>
+              
+
+              <!-- Other pages -->
+              <li class="nav-item active">
+                <a class="nav-link" href="/publications/">publications<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item ">
+                <a class="nav-link" href="/teaching/">teaching</a>
+              </li>
+
+              <!-- Toogle theme mode -->
+              <li class="toggle-container">
+                <button id="light-toggle" title="Change theme">
+                  <i class="fas fa-moon"></i>
+                  <i class="fas fa-sun"></i>
+                </button>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Scrolling Progress Bar -->
+      <progress id="progress" value="0">
+        <div class="progress-container">
+          <span class="progress-bar"></span>
+        </div>
+      </progress>
+    </header>
+
+
+    <!-- Content -->
+    <div class="container mt-5">
+      <!-- page.html -->
+        <div class="post">
+
+          <header class="post-header">
+            <h1 class="post-title">publications</h1>
+            <p class="post-description"></p>
+          </header>
+
+          <article>
+            <!-- _pages/publications.md -->
+<div class="publications">
+  <h2 class="year">2023</h2>
+  <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">ICML Workshop</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="pegoraro2023vector" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Vector Quantile Regression on Manifolds</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Marco Pegoraro, Sanketh Vedula, <a href="https://avivr.net" rel="external nofollow noopener" target="_blank">Aviv A. Rosenberg</a>, Irene Tallini, Emanuele Rodolà, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Alex M. Bronstein' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In ICML Workshop on New Frontiers in Learning, Control, and Dynamical Systems</em>, 2023
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://openreview.net/forum?id=QHvrI74Zir" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="https://openreview.net/pdf?id=QHvrI74Zir" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+          </div>
+          
+          <div class="badges">
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Quantile regression (QR) is a statistical tool for distribution-free estimation of conditional quantiles of a target variable given explanatory features. QR is limited by the assumption that the target distribution is univariate and defined on an Euclidean domain. Although the notion of quantiles was recently extended to multi-variate distributions, QR for multi-variate distributions on manifolds remains underexplored, even though many important applications inherently involve data distributed on, e.g., spheres (climate measurements), tori (dihedral angles in proteins), or Lie groups (attitude in navigation). By leveraging optimal transport theory and the notion of c-concave functions, we meaningfully define conditional vector quantile functions of high-dimensional variables on manifolds (M-CVQFs). Our approach allows for quantile estimation, regression, and computation of conditional confidence sets. We demonstrate the approach’s efficacy and provide insights regarding the meaning of non-Euclidean quantiles through preliminary synthetic data experiments.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">ICML Workshop</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="vedula2023continuous" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Continuous Vector Quantile Regression</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Sanketh Vedula, Irene Tallini, <a href="https://avivr.net" rel="external nofollow noopener" target="_blank">Aviv A. Rosenberg</a>, Marco Pegoraro, Emanuele Rodolà, and
+          <span class="more-authors" title="click to view 2 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '2 more authors' ? 'Yaniv Romano, Alex M. Bronstein' : '2 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">2 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In ICML Workshop on New Frontiers in Learning, Control, and Dynamical Systems</em>, 2023
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://openreview.net/forum?id=DUZbGAXcyL" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="https://openreview.net/pdf?id=DUZbGAXcyL" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+          </div>
+          
+          <div class="badges">
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Vector quantile regression (VQR) estimates the conditional vector quantile function (CVQF), a fundamental quantity which fully represents the conditional distribution of \rvecY|\rvecX. VQR is formulated as an optimal transport (OT) problem between a uniform \rvecU∼μand the target (\rvecX,\rvecY)∼ν, the solution of which is a unique transport map, co-monotonic with \rvecU. Recently non linear VQR (NL-VQR) has been proposed to estimate support non-linear CVQFs, together with fast solvers which enabled the use of this tool in practical applications. Despite its utility, the scalability and estimation quality of NL-VQR is limited due to a discretization of the OT problem onto a grid of quantile levels. We propose a novel \emphcontinuous formulation and parametrization of VQR using partial input-convex neural networks (PICNNs). Our approach allows for accurate, scalable, differentiable and invertible estimation of non-linear CVQFs. We further demonstrate, theoretically and experimentally, how continuous CVQFs can be used for general statistical inference tasks: estimation of likelihoods, CDFs, confidence sets, coverage, sampling, and more. This work is an important step towards unlocking the full potential of VQR.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">ICLR</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="rosenberg2023fast" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Fast Nonlinear Vector Quantile Regression</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <a href="https://avivr.net" rel="external nofollow noopener" target="_blank">Aviv A. Rosenberg</a>, Sanketh Vedula, Yaniv Romano, and Alex M. Bronstein</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In The Eleventh International Conference on Learning Representations </em>, 2023
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://openreview.net/forum?id=UxqUgchwXkK" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="https://openreview.net/pdf?id=UxqUgchwXkK" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+          </div>
+          
+          <div class="badges">
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Quantile regression (QR) is a powerful tool for estimating one or more conditional quantiles of a target variable Y given explanatory features X. A limitation of QR is that it is only defined for scalar target variables, due to the formulation of its objective function, and since the notion of quantiles has no standard definition for multivariate distributions. Recently, vector quantile regression (VQR) was proposed as an extension of QR for vector-valued target variables, thanks to a meaningful generalization of the notion of quantiles to multivariate distributions via optimal transport. Despite its elegance, VQR is arguably not applicable in practice due to several limitations: (i) it assumes a linear model for the quantiles of the target Y given the features X; (ii) its exact formulation is intractable even for modestly-sized problems in terms of target dimensions, number of regressed quantile levels, or number of features, and its relaxed dual formulation may violate the monotonicity of the estimated quantiles; (iii) no fast or scalable solvers for VQR currently exist. In this work we fully address these limitations, namely: (i) We extend VQR to the non-linear case, showing substantial improvement over linear VQR; (ii) We propose vector monotone rearrangement, a method which ensures the quantile functions estimated by VQR are monotone functions; (iii) We provide fast, GPU-accelerated solvers for linear and nonlinear VQR which maintain a fixed memory footprint, and demonstrate that they scale to millions of samples and thousands of quantile levels; (iv) We release an optimized python package of our solvers as to widespread the use of VQR in real-world applications.</p>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
+
+  <h2 class="year">2022</h2>
+  <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">Scientific Reports</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="ackerman2022machine" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Machine learning approaches demonstrate that protein structures carry information about their genetic coding</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Linor Ackerman-Schraier, <a href="https://avivr.net" rel="external nofollow noopener" target="_blank">Aviv A. Rosenberg</a>, Ailie Marx, and Alex M. Bronstein</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Scientific Reports</em>, 2022
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+          </div>
+          
+          <div class="badges">
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">NatComm</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="Rosenberg2022" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Codon-specific Ramachandran plots show amino acid backbone conformation depends on identity of the translated codon</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <a href="https://avivr.net" rel="external nofollow noopener" target="_blank">Aviv A. Rosenberg</a>, Ailie Marx, and Alex M. Bronstein</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Nature Communications</em>, May 2022
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://www.nature.com/articles/s41467-022-30390-9" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="https://www.nature.com/articles/s41467-022-30390-9.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+          </div>
+          
+          <div class="badges">
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Synonymous codons translate into chemically identical amino acids. Once considered inconsequential to the formation of the protein product, there is evidence to suggest that codon usage affects co-translational protein folding and the final structure of the expressed protein. Here we develop a method for computing and comparing codon-specific Ramachandran plots and demonstrate that the backbone dihedral angle distributions of some synonymous codons are distinguishable with statistical significance for some secondary structures. This shows that there exists a dependence between codon identity and backbone torsion of the translated amino acid. Although these findings cannot pinpoint the causal direction of this dependence, we discuss the vast biological implications should coding be shown to directly shape protein conformation and demonstrate the usefulness of this method as a tool for probing associations between codon usage and protein structure. Finally, we urge for the inclusion of exact genetic information into structural databases.</p>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
+
+  <h2 class="year">2021</h2>
+  <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">PNAS</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="Elul2021" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Meeting the unmet needs of clinicians from AI systems showcased for cardiology with deep-learning–based ECG analysis</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Yonatan Elul, <a href="https://avivr.net" rel="external nofollow noopener" target="_blank">Aviv A. Rosenberg</a>, Assaf Schuster, Alex M. Bronstein, and Yael Yaniv</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Proceedings of the National Academy of Sciences</em>, May 2021
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://www.pnas.org/content/118/24/e2020620118" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="https://www.pnas.org/content/118/24/e2020620118.full.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+          </div>
+          
+          <div class="badges">
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>The use of artificial intelligence (AI) in medicine, particularly deep learning, has gained considerable attention recently. Although some works boast superior capabilities compared to clinicians, actual deployments of AI systems in the clinic are scarce. We describe four important gaps on the machine-learning side responsible for this discrepancy by first formulating them in a way that is actionable by AI researchers and then systematically addressing these needs. Aiming beyond the search for better model architectures or improved accuracy, we focus directly on the challenges of clinical usefulness as stated by medical professionals in the literature. Our results show that deep-learning systems can be robust, trustworthy, explainable, and transparent while retaining the superior level of performance these algorithms are known for.Despite their great promise, artificial intelligence (AI) systems have yet to become ubiquitous in the daily practice of medicine largely due to several crucial unmet needs of healthcare practitioners. These include lack of explanations in clinically meaningful terms, handling the presence of unknown medical conditions, and transparency regarding the system’s limitations, both in terms of statistical performance as well as recognizing situations for which the system’s predictions are irrelevant. We articulate these unmet clinical needs as machine-learning (ML) problems and systematically address them with cutting-edge ML techniques. We focus on electrocardiogram (ECG) analysis as an example domain in which AI has great potential and tackle two challenging tasks: the detection of a heterogeneous mix of known and unknown arrhythmias from ECG and the identification of underlying cardio-pathology from segments annotated as normal sinus rhythm recorded in patients with an intermittent arrhythmia. We validate our methods by simulating a screening for arrhythmias in a large-scale population while adhering to statistical significance requirements. Specifically, our system 1) visualizes the relative importance of each part of an ECG segment for the final model decision; 2) upholds specified statistical constraints on its out-of-sample performance and provides uncertainty estimation for its predictions; 3) handles inputs containing unknown rhythm types; and 4) handles data from unseen patients while also flagging cases in which the model’s outputs are not usable for a specific patient. This work represents a significant step toward overcoming the limitations currently impeding the integration of AI into clinical practice in cardiology and medicine in general.All study data are included in the article and/or SI Appendix.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">Nat. Dig. Med.</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="levy2021digital" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Digital oximetry biomarkers for assessing respiratory function: standards of measurement, physiological interpretation, and clinical use</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Jeremy Levy, Daniel Álvarez, <a href="https://avivr.net" rel="external nofollow noopener" target="_blank">Aviv A Rosenberg</a>, Alexandra Alexandrovich, Félix Del Campo, and
+          <span class="more-authors" title="click to view 1 more author" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '1 more author' ? 'Joachim A Behar' : '1 more author';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">1 more author</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>NPJ Digital Medicine</em>, May 2021
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://www.nature.com/articles/s41746-020-00373-5" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="https://www.nature.com/articles/s41746-020-00373-5.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+          </div>
+          
+          <div class="badges">
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Pulse oximetry is routinely used to non-invasively monitor oxygen saturation levels. A low oxygen level in the blood means low oxygen in the tissues, which can ultimately lead to organ failure. Yet, contrary to heart rate variability measures, a field which has seen the development of stable standards and advanced toolboxes and software, no such standards and open tools exist for continuous oxygen saturation time series variability analysis. The primary objective of this research was to identify, implement and validate key digital oximetry biomarkers (OBMs) for the purpose of creating a standard and associated reference toolbox for continuous oximetry time series analysis. We review the sleep medicine literature to identify clinically relevant OBMs. We implement these biomarkers and demonstrate their clinical value within the context of obstructive sleep apnea (OSA) diagnosis on a total of n = 3806 individual polysomnography recordings totaling 26,686 h of continuous data. A total of 44 digital oximetry biomarkers were implemented. Reference ranges for each biomarker are provided for individuals with mild, moderate, and severe OSA and for non-OSA recordings. Linear regression analysis between biomarkers and the apnea hypopnea index (AHI) showed a high correlation, which reached 𝑅⎯⎯⎯⎯2=0.82. The resulting python OBM toolbox, denoted “pobm”, was contributed to the open software PhysioZoo (physiozoo.org). Studying the variability of the continuous oxygen saturation time series using pbom may provide information on the underlying physiological control systems and enhance our understanding of the manifestations and etiology of diseases, with emphasis on respiratory diseases.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">Frontiers</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="weiser2021opening" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Opening the Schrödinger Box: Short-and Long-Range Mammalian Heart Rate Variability</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Ido Weiser-Bitoun, Moran Davoodi, <a href="https://avivr.net" rel="external nofollow noopener" target="_blank">Aviv A Rosenberg</a>, Alexandra Alexandrovich, and Yael Yaniv</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Frontiers in physiology</em>, May 2021
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://www.frontiersin.org/articles/10.3389/fphys.2021.665709/full" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="https://www.frontiersin.org/articles/10.3389/fphys.2021.665709/pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+          </div>
+          
+          <div class="badges">
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p></p>
+          </div>
+        </div>
+      </div>
+</li>
+</ol>
+
+  <h2 class="year">2020</h2>
+  <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">Scientific Reports</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="rosenberg2020signatures" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Signatures of the autonomic nervous system and the heart’s pacemaker cells in canine electrocardiograms and their applications to humans</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <a href="https://avivr.net" rel="external nofollow noopener" target="_blank">Aviv A Rosenberg</a>, Ido Weiser-Bitoun, George E Billman, and Yael Yaniv</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Nature Scientific Reports</em>, May 2020
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://www.nature.com/articles/s41598-020-66709-z" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="https://www.nature.com/articles/s41598-020-66709-z.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+          </div>
+          
+          <div class="badges">
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Heart rate and heart rate variability (HRV) are mainly determined by the autonomic nervous system (ANS), which interacts with receptors on the sinoatrial node (SAN; the heart’s primary pacemaker), and by the “coupled-clock” system within the SAN cells. HRV changes are associated with cardiac diseases. However, the relative contributions of the ANS and SAN to HRV are not clear, impeding effective treatment. To discern the SAN’s contribution, we performed HRV analysis on canine electrocardiograms containing basal and ANS-blockade segments. We also analyzed human electrocardiograms of atrial fibrillation and heart failure patients, as well as healthy aged subjects. Finally, we used a mathematical model to simulate HRV under decreased “coupled-clock” regulation. We found that (a) in canines, the SAN and ANS contribute mainly to long- and short-term HRV, respectively; (b) there is evidence suggesting a similar relative SAN contribution in humans; (c) SAN features can be calculated from beat-intervals obtained in-vivo, without intervention; (d) ANS contribution can be modeled by sines embedded in white noise; (e) HRV changes associated with cardiac diseases and aging can be interpreted as deterioration of both SAN and ANS; and (f) SAN clock-coupling can be estimated from changes in HRV. This may enable future non-invasive diagnostic applications.</p>
+          </div>
+        </div>
+      </div>
+</li></ol>
+
+  <h2 class="year">2018</h2>
+  <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">CinC</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="behar2018adding" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Adding Two Dimensions to Heart Rate Variability Research</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Joachim A Behar, Ori Shemla, Ido Weiser-Bitoun, <a href="https://avivr.net" rel="external nofollow noopener" target="_blank">Aviv A Rosenberg</a>, and Yael Yaniv</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In 2018 Computing in Cardiology Conference (CinC)</em>, May 2018
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://ieeexplore.ieee.org/abstract/document/8743925" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+          </div>
+          
+          <div class="badges">
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Introduction: Heart rate variability (HRV) analysis tools have been mainly available for analysis of human electrocardiographic derived heart rate. We explore extending HRV analysis to two additional dimensions: (1) analysis across multiple mammalian species and (2) analysis across different levels of integration for example sinoatrial tissue. Methods: We analyzed the beating rate variability (BRV) across the two additional dimensions using the PhysioZoo computer program that we recently introduced. We used published databases of electrocardiograms from four mammal types: human (n=18), dog (n=17), rabbit (n=4) and mouse (n=8). We computed the BRV measures for each. We also show how the PhysioZoo program can be used for the analysis of sinoatrial node tissue BRV. Results: The study of typical mammalian heart and respiration rates (obtained from the dominant high frequency peak) revealed a linear relationship between these two quantities. Analysis of the rabbit sinoatrial node tissue BRV showed that it had reduced overall variability when compared to in vivo heart BRV.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">MSc. Thesis</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="rosenberg2018non" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Non-Invasive In-Vivo Analysis of Intrinsic Clock-Like Pacemaker Mechanisms: Decoupling Neural Input Using Heart Rate Variability Measurements</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        <a href="https://avivr.net" rel="external nofollow noopener" target="_blank">Aviv A. Rosenberg</a>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Technion, Israel Institute of Technology</em>, May 2018
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://www.graduate.technion.ac.il/Theses/Abstracts.asp?Id=30274" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+          </div>
+          
+          <div class="badges">
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Heart diseases account for a quarter of all deaths each year in the US and are also an economic burden with an estimated expenditure for treatment of almost $100B annually in the US alone.  Cardiovascular disease mortality rate is correlated with an increase in heart rate which is regulated by both the autonomic nervous system (ANS) and the sinoatrial node (SAN) cells in heart. The heart rate is highly variable and never reaches a steady state even at rest—a phenomenon known as heart rate variability (HRV). Many studies have shown that loss of this variability is strongly associated with morbidity and mortality. By using pharmacological denervation, a method of temporarily blocking the ANS and applying HRV analysis we aim to study the contribution of the SAN to the HRV. We acquired canine ECG data containing both basal (n=27) and denervated segments (n=20). We applied an automated ECG segmentation algorithm to extract the segments from each record. We used a custom R-peak detector, rqrs, based on the PhysioNet’s gqrs, to detect R-peaks in the data and produce an RR-interval time series. We excluded ectopic beats using an automated algorithm and proceeded to apply HRV analysis to the resulting intervals. We implemented all major HRV techniques which can be categorized into time domain, frequency domain (spectral) and nonlinear methods (which quantify physiological complexity). We used these methods to extract HRV features from both the basal and denervated data sets. We implemented all signal processing and HRV analysis methods as an open source MATLAB toolbox, rhrv, and additionally provided a GUI, PhysioZoo, which enables HRV analysis in animal data and comes with an annotated animal database. We have shown that the rqrs peak detector provides accurate detections for annotated human ECG data (F1=93.4) and annotated ECG records from our canine dataset (F1=98.7). Moreover, we adapted HRV analysis techniques to the canine data where necessary and e.g. provide an automatic method of adapting the frequency bands for spectral HRV analysis. HRV analysis of basal vs. denervated data shows that (1) Time domain HRV is significantly reduced after denervation; (2) SAN contributes spectral power mainly in the very-low frequency band; (3) The SA Node contributes most of the physiological complexity of the heart rate, specifically the long-term changes occurring over many beats; (4) The ANS influences mainly the short term, beat-to-beat variability of the heart rate; (5) The contribution of the ANS to the heart rate signal can be modeled as two sine waves at specific frequencies corresponding to periodic autonomic regulation embedded in white noise. Moreover, we suggest clinical indices for the state and function of the SAN directly from basal ECG data by measuring spectral power in the VLF band and multiscale entropy (MSE) values in the high scales. We conclude that by applying HRV analysis to regular ECG data, SAN function can be observed even without pharmacological denervation. This has the potential to allow future non-invasive heart monitoring solutions that can be used e.g. for early detection of SA node dysfunction.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">Frontiers</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="behar2018physiozoo" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">PhysioZoo: a novel open access platform for heart rate variability analysis of mammalian electrocardiographic data</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Joachim A Behar, <a href="https://avivr.net" rel="external nofollow noopener" target="_blank">Aviv A Rosenberg</a>, Ido Weiser-Bitoun, Ori Shemla, Alexandra Alexandrovich, and
+          <span class="more-authors" title="click to view 2 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '2 more authors' ? 'Eugene Konyukhov, Yael Yaniv' : '2 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">2 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Frontiers in Physiology</em>, May 2018
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="https://www.frontiersin.org/articles/10.3389/fphys.2018.01390/full" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="https://www.frontiersin.org/articles/10.3389/fphys.2018.01390/pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+          </div>
+          
+          <div class="badges">
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+<li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">Frontiers</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="behar2018universal" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">A universal scaling relation for defining power spectral bands in mammalian heart rate variability analysis</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Joachim A Behar, <a href="https://avivr.net" rel="external nofollow noopener" target="_blank">Aviv A Rosenberg</a>, Ori Shemla, Kevin R Murphy, Gideon Koren, and
+          <span class="more-authors" title="click to view 2 more authors" onclick="
+                var element = $(this);
+                element.attr('title', '');
+                var more_authors_text = element.text() == '2 more authors' ? 'George E Billman, Yael Yaniv' : '2 more authors';
+                var cursorPosition = 0;
+                var textAdder = setInterval(function(){
+                  element.text(more_authors_text.substring(0, cursorPosition + 1));
+                  if (++cursorPosition == more_authors_text.length){
+                    clearInterval(textAdder);
+                  }
+              }, '10');
+              ">2 more authors</span>
+</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>Frontiers in Physiology</em>, May 2018
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a href="https://www.frontiersin.org/articles/10.3389/fphys.2018.01001/full" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="https://www.frontiersin.org/articles/10.3389/fphys.2018.01001/pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+          </div>
+          
+          <div class="badges">
+          </div>
+
+          
+        </div>
+      </div>
+</li>
+</ol>
+
+  <h2 class="year">2017</h2>
+  <ol class="bibliography"><li>
+<!-- _layouts/bib.html -->
+      <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">CinC</abbr></div>
+
+        <!-- Entry bib key -->
+        <div id="behar2017rhythm" class="col-sm-8">
+        <!-- Title -->
+        <div class="title">Rhythm and quality classification from short ECGs recorded using a mobile device</div>
+        <!-- Author -->
+        <div class="author">
+        
+
+        Joachim A Behar, <a href="https://avivr.net" rel="external nofollow noopener" target="_blank">Aviv A Rosenberg</a>, Yael Yaniv, and Julien Oster</div>
+
+        <!-- Journal/Book title and date -->
+        
+        
+        <div class="periodical">
+          <em>In 2017 Computing in Cardiology (CinC)</em>, May 2017
+        </div>
+        <div class="periodical">
+          
+        </div>
+
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abs</a>
+            <a href="https://ieeexplore.ieee.org/abstract/document/8331574" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">HTML</a>
+            <a href="http://www.cinc.org/archives/2017/pdf/165-056.pdf" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">PDF</a>
+          </div>
+          
+          <div class="badges">
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Introduction: Atrial fibrillation (AF) is the most common sustained cardiac arrhythmia. Its prevalence is 12% of the general population and it is associated with increased risk of mortality and morbidity. Methods: The AliveCor mobile electrocardiogram (ECG) device was used to collect data. The Physionet Challenge aimed to create an intelligent algorithm for automated rhythm and quality classification. A database of 8528 single lead ECG was used for training and a closed database of 3658 ECG recordings was used for testing the participants algorithms on the Challenge server. The RR interval time-series was first estimated using a R-peak detector. Signal quality was estimated on a second-by-second basis and the continuous sub-segment with the highest quality was selected for further analysis. A number of features were estimated: heart rate variability (time domain based, fragmentation, coefficient of sample entropy etc.), ECG morphology (QRS length, QT interval etc.) and the presence of ectopic beats. The features were used to train support vector machine classifiers in a one-vs.-rest approach. Results: For the final score of the challenge we obtained an overall F ι measure on the test set of 0.80. Conclusion: The feature based machine learning approach showed high performance in distinguishing between the different rhythms represented in the Challenge. This opens the horizon for computer automated interpretation of single lead mobile ECG.</p>
+          </div>
+        </div>
+      </div>
+</li></ol>
+
+
+</div>
+
+          </article>
+
+        </div>
+
+    </div>
+
+    <!-- Footer -->    
+    <footer class="fixed-bottom">
+      <div class="container mt-0">
+        © Copyright 2023 Aviv A. Rosenberg. Last updated: July 22, 2023.
+      </div>
+    </footer>
+
+    <!-- JavaScripts -->
+    <!-- jQuery -->
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+
+    <!-- Bootsrap & MDB scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8=" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js" integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA=" crossorigin="anonymous"></script>
+
+    <!-- Masonry & imagesLoaded -->
+  <script defer src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js" integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI=" crossorigin="anonymous"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+  <script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+    
+  <!-- Medium Zoom JS -->
+  <script defer src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.8/dist/medium-zoom.min.js" integrity="sha256-7PhEpEWEW0XXQ0k6kQrPKwuoIomz8R8IYyuU1Qew4P8=" crossorigin="anonymous"></script>
+  <script defer src="/assets/js/zoom.js"></script><!-- Load Common JS -->
+  <script defer src="/assets/js/common.js"></script>
+  <script defer src="/assets/js/copy_code.js" type="text/javascript"></script>
+
+    
+
+    <!-- MathJax -->
+  <script type="text/javascript">
+    window.MathJax = {
+      tex: {
+        tags: 'ams'
+      }
+    };
+  </script>
+  <script defer type="text/javascript" id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"></script>
+  <script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-0E7V13KGS6"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){ window.dataLayer.push(arguments); }
+    gtag('js', new Date());
+    gtag('config', 'G-0E7V13KGS6');
+  </script>
+    
+
+<!-- Scrolling Progress Bar -->
+<script type="text/javascript">
+  /*
+   * This JavaScript code has been adapted from the article 
+   * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar, 
+   * published on the website https://css-tricks.com on the 7th of May, 2014.
+   * Couple of changes were made to the original code to make it compatible 
+   * with the `al-foio` theme.
+   */
+  const progressBar = $("#progress");
+  /*
+   * We set up the bar after all elements are done loading.
+   * In some cases, if the images in the page are larger than the intended
+   * size they'll have on the page, they'll be resized via CSS to accomodate
+   * the desired size. This mistake, however, breaks the computations as the
+   * scroll size is computed as soon as the elements finish loading.
+   * To account for this, a minimal delay was introduced before computing the
+   * values.
+   */
+  window.onload = function () {
+    setTimeout(progressBarSetup, 50);
+  };
+  /*
+   * We set up the bar according to the browser.
+   * If the browser supports the progress element we use that.
+   * Otherwise, we resize the bar thru CSS styling
+   */
+  function progressBarSetup() {
+    if ("max" in document.createElement("progress")) {
+      initializeProgressElement();
+      $(document).on("scroll", function() {
+        progressBar.attr({ value: getCurrentScrollPosition() });
+      });
+      $(window).on("resize", initializeProgressElement);
+    } else {
+      resizeProgressBar();
+      $(document).on("scroll", resizeProgressBar);
+      $(window).on("resize", resizeProgressBar);
+    }
+  }
+  /*
+   * The vertical scroll position is the same as the number of pixels that
+   * are hidden from view above the scrollable area. Thus, a value > 0 is
+   * how much the user has scrolled from the top
+   */
+  function getCurrentScrollPosition() {
+    return $(window).scrollTop();
+  }
+
+  function initializeProgressElement() {
+    let navbarHeight = $("#navbar").outerHeight(true);
+    $("body").css({ "padding-top": navbarHeight });
+    $("progress-container").css({ "padding-top": navbarHeight });
+    progressBar.css({ top: navbarHeight });
+    progressBar.attr({
+      max: getDistanceToScroll(),
+      value: getCurrentScrollPosition(),
+    });
+  }
+  /*
+   * The offset between the html document height and the browser viewport
+   * height will be greater than zero if vertical scroll is possible.
+   * This is the distance the user can scroll
+   */
+  function getDistanceToScroll() {
+    return $(document).height() - $(window).height();
+  }
+
+  function resizeProgressBar() {
+    progressBar.css({ width: getWidthPercentage() + "%" });
+  }
+  // The scroll ratio equals the percentage to resize the bar
+  function getWidthPercentage() {
+    return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+  }
+</script>
+
+  </body>
+</html>
