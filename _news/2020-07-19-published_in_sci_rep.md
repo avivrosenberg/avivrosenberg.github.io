@@ -5,6 +5,6 @@ inline: true
 published: true
 ---
 
-Our [new paper](https://www.nature.com/articles/s41598-020-66709-z) was
+**New paper**: Our [new paper](https://www.nature.com/articles/s41598-020-66709-z) was
 published in Nature Scientific Reports.
 
