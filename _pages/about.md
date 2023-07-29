@@ -7,8 +7,8 @@ subtitle: >
 
 profile:
   align: right
-  image: aviv-prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image: profile_pics/04a.jpg
+  image_circular: true
   address: 
 
 news: true  # includes a list of news items
