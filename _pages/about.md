@@ -16,7 +16,7 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a machine learning engineer and data scientist at
+Currently a machine learning engineer and data scientist at
 [Sibylla](https://sibylla.ai), a fintech startup, where I lead the design and
 implementation of our machine-learning-based algorithmic trading platform.
 
