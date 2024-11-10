@@ -7,6 +7,25 @@
 % - Use 'selected = {true}' to post on front page.
 %%%%
 
+@ARTICLE{Rosenberg2024-ug,
+  abbr={Sci. Data},
+  title     = "A dataset of alternately located segments in protein crystal
+               structures",
+  author    = "Rosenberg, Aviv A and Marx, Ailie and Bronstein, Alexander M",
+  journal   = "Scientific Data",
+  publisher = "Nature Publishing Group",
+  volume    =  11,
+  number    =  1,
+  pages     = "1--8",
+  abstract  = "Protein Data Bank (PDB) files list the relative spatial location of atoms in a protein structure as the final output of the process of fitting and refining to experimentally determined electron density measurements. Where experimental evidence exists for multiple conformations, atoms are modelled in alternate locations. Programs reading PDB files commonly ignore these alternate conformations by default leaving users oblivious to the presence of alternate conformations in the structures they analyze. This has led to underappreciation of their prevalence, under characterisation of their features and limited the accessibility to this high-resolution data representing structural ensembles. We have trawled PDB files to extract structural features of residues with alternately located atoms. The output includes the distance between alternate conformations and identifies the location of these segments within the protein chain and in proximity of all other atoms within a defined radius. This dataset should be of use in efforts to predict multiple structures from a single sequence and support studies investigating protein flexibility and the association with protein function.",
+  month     =  jul,
+  year      =  2024,
+  language  = "en",
+  html={http://dx.doi.org/10.1038/s41597-024-03595-4},
+  pdf={https://www-nature-com.ezlibrary.technion.ac.il/articles/s41597-024-03595-4.pdf}
+}
+
+
 @article{rosenberg2023aminodomino,
 abbr={PNAS},
 author={Aviv A. Rosenberg and Nitsan YehiShalom and Ailie Marx and Alex M Bronstein},
@@ -19,15 +38,22 @@ pdf={https://www.pnas.org/doi/epdf/10.1073/pnas.2301064120},
 selected = {true}
 }
 
-@inproceedings{pegoraro2023vector,
-    abbr={ICML Workshop},
-    title={Vector Quantile Regression on Manifolds},
-    author={Marco Pegoraro and Sanketh Vedula and Aviv A. Rosenberg and Irene Tallini and Emanuele Rodol{\`a} and Alex M. Bronstein},
-    booktitle={ICML Workshop on New Frontiers in Learning, Control, and Dynamical Systems},
-    year={2023},
-    abstract = {Quantile regression (QR) is a statistical tool for distribution-free estimation of conditional quantiles of a target variable given explanatory features. QR is limited by the assumption that the target distribution is univariate and defined on an Euclidean domain. Although the notion of quantiles was recently extended to multi-variate distributions, QR for multi-variate distributions on manifolds remains underexplored, even though many important applications inherently involve data distributed on, e.g., spheres (climate measurements), tori (dihedral angles in proteins), or Lie groups (attitude in navigation). By leveraging optimal transport theory and the notion of c-concave functions, we meaningfully define conditional vector quantile functions of high-dimensional variables on manifolds (M-CVQFs). Our approach allows for quantile estimation, regression, and computation of conditional confidence sets. We demonstrate the approach's efficacy and provide insights regarding the meaning of non-Euclidean quantiles through preliminary synthetic data experiments.},
-    html={https://openreview.net/forum?id=QHvrI74Zir},
-    pdf={https://openreview.net/pdf?id=QHvrI74Zir}
+@INPROCEEDINGS{Pegoraro2024-cw,
+  abbr     = {AISTATS},
+  title     = "Vector Quantile Regression on Manifolds",
+  author    = "Pegoraro, Marco and Vedula, Sanketh and Rosenberg, Aviv A and
+               Tallini, Irene and Rodola, Emanuele and Bronstein, Alex",
+  editor    = "Dasgupta, Sanjoy and Mandt, Stephan and Li, Yingzhen",
+  booktitle = "Proceedings of The 27th International Conference on Artificial
+               Intelligence and Statistics",
+  publisher = "PMLR",
+  volume    =  238,
+  pages     = "1999--2007",
+  abstract  = "Quantile regression (QR) is a statistical tool for distribution-free estimation of conditional quantiles of a target variable given explanatory features. QR is limited by the assumption that the target distribution is univariate and defined on an Euclidean domain. Although the notion of quantiles was recently extended to multi-variate distributions, QR for multi-variate distributions on manifolds remains underexplored, even though many important applications inherently involve data distributed on, e.g., spheres (climate and geological phenomena), and tori (dihedral angles in proteins). By leveraging optimal transport theory and c-concave functions, we meaningfully define conditional vector quantile functions of high-dimensional variables on manifolds (M-CVQFs). Our approach allows for quantile estimation, regression, and computation of conditional confidence sets and likelihoods. We demonstrate the approach’s efficacy and provide insights regarding the meaning of non-Euclidean quantiles through synthetic and real data experiments.",
+  series    = "Proceedings of Machine Learning Research",
+  year      =  2024,
+  html={https://proceedings.mlr.press/v238/pegoraro24a.html},
+  pdf={https://proceedings.mlr.press/v238/pegoraro24a/pegoraro24a.pdf}
 }
 
 @inproceedings{vedula2023continuous,
