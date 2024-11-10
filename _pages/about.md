@@ -17,14 +17,14 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I'm an experienced Data Scientist specializing in machine learning and signal
+I'm an experienced data scientist specializing in machine learning and signal
 processing.
 
 I have tackled data-intensive problems across diverse domains, including
 cardiology (deep-learning based ECG analysis), computational biology
 (directional statistics for protein structure analysis), transportation
-(time-series processing) and finance. In my current role at Sibylla, I develop
-machine-learning algorithms as part of our algorithmic trading platform.
+(time-series processing) and quantitative finance (learning-based portfolio
+construction and optimization).
 
 I completed my PhD in the Technion Computer Science Faculty, where I conducted
 multidisciplinary research developing ML-based algorithms and statistical tools
