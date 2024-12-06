@@ -3,8 +3,7 @@ layout: about
 title: about
 permalink: /
 subtitle: >
-  Machine Learning • Research • Engineering
-
+  <b>Machine Learning • Research • Engineering</b>
 
 profile:
   align: right
