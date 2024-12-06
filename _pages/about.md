@@ -5,6 +5,7 @@ permalink: /
 subtitle: >
   Machine Learning • Research • Engineering
 
+
 profile:
   align: right
   image: profile_pics/04a.jpg
@@ -14,7 +15,7 @@ profile:
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
 selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true  # includes social icons at the bottom of the page
+social: true # includes social icons at the bottom of the page
 ---
 
 I'm an experienced data scientist specializing in machine learning and signal
