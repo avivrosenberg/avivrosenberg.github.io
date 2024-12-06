@@ -17,7 +17,7 @@ icon: 👾   # the emoji used as the favicon (alternatively, provide image name 
 
 url: https://avivrosenberg.github.io  # the base hostname & protocol for your site
 baseurl: #/al-folio # the subpath of your site, e.g. /blog/
-last_updated: true # set to true if you want to display last updated in the footer
+last_updated: false # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 back_to_top: true # set to false to disable the back to top button
 
@@ -48,8 +48,8 @@ rss_icon: true
 
 navbar_fixed: true
 footer_fixed: true
-search_enabled: true
-socials_in_search: true
+search_enabled: false
+socials_in_search: false
 bib_search: true
 
 # Dimensions
@@ -314,7 +314,11 @@ display_categories: ["external-services"] # these categories will be displayed o
 
 scholar:
   last_name: [Rosenberg]
-  first_name: [Aviv, A.]
+  first_name:
+    - Aviv, A.
+    - Aviv A.
+    - Aviv A
+    - Aviv
 
   style: apa
   locale: en
