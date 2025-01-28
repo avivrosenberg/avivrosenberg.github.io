@@ -1,5 +1,5 @@
 # avivr.net
 
-My personal website and blog.
+My old website. No longer maintained in this repo.
 
 Theme is based on [al-folio](https://github.com/alshedivat/al-folio).
