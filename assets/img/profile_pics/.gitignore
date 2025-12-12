@@ -1,8 +1,0 @@
-# Need to explicitly git add -f files in this directory, don't want to commit all that's here.
-*.jpg
-*.jpeg
-*.heic
-*.png
-*.gif
-*.tif
-*.tiff
